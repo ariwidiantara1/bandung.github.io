@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h2, h4 {
+    color: aqua;
+}
+
+.card {
+
+    box-shadow: 0 8px 16px 0 black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    margin: 40px;
+}
+.jumbotron {
+    text-align: center;
+    background-color: #4287f5;
+    padding: 60px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    margin-right: 20px;
+
+}
+nav {
+    background-color: rgb(5, 5, 235);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+nav li {
+    display: inline;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4287f5;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: inline;
+}
+ 
+#content {
+    width: 100%;
+}
